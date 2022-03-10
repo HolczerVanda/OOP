@@ -1,0 +1,15 @@
+while(true)
+    {
+    	System.out.println("Give a number");
+    	if(!input.hasNextInt())
+    	{
+    		System.out.println("Error message");
+    		input.nextLine();
+    	}
+    	else
+    	{
+    		int n=input.nextInt();
+    		input.nextLine();
+    		return n;
+    	}
+    }
