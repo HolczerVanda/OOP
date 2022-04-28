@@ -100,26 +100,6 @@ public class CardTest {
 		}
 	}
 	
-	/*public static int readInt()
-	{
-		int number=0;
-		do
-		{
-			System.out.println("Please give the number of credit cards(1-10): ");
-			try
-			{
-				number=input.nextInt();
-				return number;
-			}
-			catch(Exception e)
-			{
-				System.out.println("Incorrect input");
-			}
-			input.nextLine();
-		}while(number<1 || number>10);
-		return number;
-	}*/
-	
 	public static Card.Bank parseBank(String bank) throws Exception
 	{
 		for(var parsed : Card.Bank.values())
@@ -159,24 +139,5 @@ public class CardTest {
 			}
 		}
 	}
-	
-	/*public static int readInt2()
-	{
-		while(true)
-	    {
-	    	System.out.println("Please give the number of credit cards(1-10): ");
-	    	if(!input.hasNextInt())
-	    	{
-	    		System.out.println("Error message");
-	    		input.nextLine();
-	    	}
-	    	else
-	    	{
-	    		int n=input.nextInt();
-	    		input.nextLine();
-	    		return n;
-	    	}
-	    }
-	}*/
 	
 }
